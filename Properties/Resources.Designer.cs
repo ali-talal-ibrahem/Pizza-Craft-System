@@ -73,6 +73,26 @@ namespace PizzaCraft.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Background_Welcome {
+            get {
+                object obj = ResourceManager.GetObject("Background_Welcome", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button {
+            get {
+                object obj = ResourceManager.GetObject("Button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cheese {
             get {
                 object obj = ResourceManager.GetObject("cheese", resourceCulture);
@@ -96,6 +116,16 @@ namespace PizzaCraft.Properties {
         internal static System.Drawing.Bitmap Customize_Toppings_Selecte {
             get {
                 object obj = ResourceManager.GetObject("Customize Toppings Selecte", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Customize_Toppings_Selecte1 {
+            get {
+                object obj = ResourceManager.GetObject("Customize Toppings Selecte1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,6 +233,16 @@ namespace PizzaCraft.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Pizza_Menu_Selecte1 {
+            get {
+                object obj = ResourceManager.GetObject("Pizza Menu Selecte1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap red_cherry {
             get {
                 object obj = ResourceManager.GetObject("red_cherry", resourceCulture);
@@ -223,9 +263,39 @@ namespace PizzaCraft.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Start_Button {
+            get {
+                object obj = ResourceManager.GetObject("Start_Button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SupremeMeatPizza {
             get {
                 object obj = ResourceManager.GetObject("SupremeMeatPizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thin_Slice {
+            get {
+                object obj = ResourceManager.GetObject("Thin_Slice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Think_Slice {
+            get {
+                object obj = ResourceManager.GetObject("Think_Slice", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
