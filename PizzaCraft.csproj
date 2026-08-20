@@ -48,14 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Pizza_Welcome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Pizza_Welcome.Designer.cs">
+      <DependentUpon>Pizza_Welcome.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Pizza_Welcome.resx">
+      <DependentUpon>Pizza_Welcome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -64,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -77,6 +81,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ChickenPizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Customize Toppings Selecte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\FourCheesePizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\fresh-basil-leaves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\MargheritaPizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\mushroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\onion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\pepperoni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\PepperoniPizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Pizza Menu Selecte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\red_cherry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Size_Pizza1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\SupremeMeatPizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\VeggieSupremePizza.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
