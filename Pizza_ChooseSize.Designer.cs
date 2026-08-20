@@ -56,7 +56,7 @@
             this.lbl_Price.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Price.Font = new System.Drawing.Font("Anton", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Price.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lbl_Price.Location = new System.Drawing.Point(710, 78);
+            this.lbl_Price.Location = new System.Drawing.Point(685, 78);
             this.lbl_Price.Name = "lbl_Price";
             this.lbl_Price.Size = new System.Drawing.Size(67, 60);
             this.lbl_Price.TabIndex = 17;
