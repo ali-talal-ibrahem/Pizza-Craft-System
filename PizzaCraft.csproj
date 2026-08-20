@@ -48,6 +48,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pizza_ChooseSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza_ChooseSize.Designer.cs">
+      <DependentUpon>Pizza_ChooseSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_ChooseThickness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza_ChooseThickness.Designer.cs">
+      <DependentUpon>Pizza_ChooseThickness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_ChooseToppings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza_ChooseToppings.Designer.cs">
+      <DependentUpon>Pizza_ChooseToppings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_ChooseYourType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza_ChooseYourType.Designer.cs">
+      <DependentUpon>Pizza_ChooseYourType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_OrderInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza_OrderInvoice.Designer.cs">
+      <DependentUpon>Pizza_OrderInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_SelectOrderType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza_SelectOrderType.Designer.cs">
+      <DependentUpon>Pizza_SelectOrderType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pizza_Welcome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +92,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Pizza_ChooseSize.resx">
+      <DependentUpon>Pizza_ChooseSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza_ChooseThickness.resx">
+      <DependentUpon>Pizza_ChooseThickness.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza_ChooseToppings.resx">
+      <DependentUpon>Pizza_ChooseToppings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza_ChooseYourType.resx">
+      <DependentUpon>Pizza_ChooseYourType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza_OrderInvoice.resx">
+      <DependentUpon>Pizza_OrderInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza_SelectOrderType.resx">
+      <DependentUpon>Pizza_SelectOrderType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pizza_Welcome.resx">
       <DependentUpon>Pizza_Welcome.cs</DependentUpon>
     </EmbeddedResource>
