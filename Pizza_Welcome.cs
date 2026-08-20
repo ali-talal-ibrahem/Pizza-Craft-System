@@ -22,5 +22,17 @@ namespace PizzaCraft
             Form Start = new Pizza_SelectOrderType();
             Start.ShowDialog();
         }
+
+        private void btn_Start_MouseEnter(object sender, EventArgs e)
+        {
+            btn_Start.ForeColor = Color.Yellow;
+        }
+
+        private void btn_Start_MouseLeave(object sender, EventArgs e)
+        {
+            btn_Start.ForeColor = Color.White;
+        }
+
+        
     }
 }

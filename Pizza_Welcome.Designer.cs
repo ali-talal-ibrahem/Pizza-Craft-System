@@ -79,6 +79,8 @@
             this.btn_Start.Text = "Start";
             this.btn_Start.UseVisualStyleBackColor = false;
             this.btn_Start.Click += new System.EventHandler(this.btn_Start_Click);
+            this.btn_Start.MouseEnter += new System.EventHandler(this.btn_Start_MouseEnter);
+            this.btn_Start.MouseLeave += new System.EventHandler(this.btn_Start_MouseLeave);
             // 
             // Pizza_Welcome
             // 
