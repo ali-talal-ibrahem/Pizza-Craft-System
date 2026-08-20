@@ -41,6 +41,8 @@
             this.pic_Middle = new System.Windows.Forms.PictureBox();
             this.pic_Large = new System.Windows.Forms.PictureBox();
             this.pic_Small = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Middle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Large)).BeginInit();
@@ -170,7 +172,8 @@
             // 
             // pic_Middle
             // 
-            this.pic_Middle.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pic_Middle.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Middle.BackgroundImage = global::PizzaCraft.Properties.Resources.Size_Pizza1;
             this.pic_Middle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pic_Middle.Location = new System.Drawing.Point(334, 124);
             this.pic_Middle.Name = "pic_Middle";
@@ -180,7 +183,8 @@
             // 
             // pic_Large
             // 
-            this.pic_Large.BackColor = System.Drawing.Color.RosyBrown;
+            this.pic_Large.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Large.BackgroundImage = global::PizzaCraft.Properties.Resources.Size_Pizza1;
             this.pic_Large.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pic_Large.Location = new System.Drawing.Point(314, 104);
             this.pic_Large.Name = "pic_Large";
@@ -191,7 +195,8 @@
             // 
             // pic_Small
             // 
-            this.pic_Small.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.pic_Small.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Small.BackgroundImage = global::PizzaCraft.Properties.Resources.Size_Pizza1;
             this.pic_Small.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pic_Small.Location = new System.Drawing.Point(359, 149);
             this.pic_Small.Name = "pic_Small";
@@ -200,6 +205,32 @@
             this.pic_Small.TabStop = false;
             this.pic_Small.Visible = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Teshrin AR+LT Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label3.Location = new System.Drawing.Point(201, 123);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 25);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "+1 $";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Teshrin AR+LT Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label4.Location = new System.Drawing.Point(201, 353);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(45, 25);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "-1 $";
+            // 
             // Pizza_ChooseSize
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -207,6 +238,8 @@
             this.BackgroundImage = global::PizzaCraft.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(814, 511);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pic_Small);
             this.Controls.Add(this.pic_Middle);
             this.Controls.Add(this.trackBar1);
@@ -246,5 +279,7 @@
         private System.Windows.Forms.PictureBox pic_Middle;
         private System.Windows.Forms.PictureBox pic_Large;
         private System.Windows.Forms.PictureBox pic_Small;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
