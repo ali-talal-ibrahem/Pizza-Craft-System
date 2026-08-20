@@ -71,8 +71,12 @@
             this.btn_Margherita.Name = "btn_Margherita";
             this.btn_Margherita.Size = new System.Drawing.Size(222, 41);
             this.btn_Margherita.TabIndex = 0;
+            this.btn_Margherita.Tag = "12.5";
             this.btn_Margherita.Text = "Margherita";
             this.btn_Margherita.UseVisualStyleBackColor = false;
+            this.btn_Margherita.Click += new System.EventHandler(this.btn_Click);
+            this.btn_Margherita.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
+            this.btn_Margherita.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
             // btn_Chicken
             // 
@@ -88,8 +92,12 @@
             this.btn_Chicken.Name = "btn_Chicken";
             this.btn_Chicken.Size = new System.Drawing.Size(222, 41);
             this.btn_Chicken.TabIndex = 3;
+            this.btn_Chicken.Tag = "10.15";
             this.btn_Chicken.Text = "Chicken";
             this.btn_Chicken.UseVisualStyleBackColor = false;
+            this.btn_Chicken.Click += new System.EventHandler(this.btn_Click);
+            this.btn_Chicken.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
+            this.btn_Chicken.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
             // btn_FourCheese
             // 
@@ -105,8 +113,12 @@
             this.btn_FourCheese.Name = "btn_FourCheese";
             this.btn_FourCheese.Size = new System.Drawing.Size(222, 41);
             this.btn_FourCheese.TabIndex = 4;
+            this.btn_FourCheese.Tag = "20";
             this.btn_FourCheese.Text = "Four Cheese";
             this.btn_FourCheese.UseVisualStyleBackColor = false;
+            this.btn_FourCheese.Click += new System.EventHandler(this.btn_Click);
+            this.btn_FourCheese.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
+            this.btn_FourCheese.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
             // btn_Pepperoni
             // 
@@ -122,8 +134,12 @@
             this.btn_Pepperoni.Name = "btn_Pepperoni";
             this.btn_Pepperoni.Size = new System.Drawing.Size(222, 41);
             this.btn_Pepperoni.TabIndex = 5;
+            this.btn_Pepperoni.Tag = "15";
             this.btn_Pepperoni.Text = "Pepperoni";
             this.btn_Pepperoni.UseVisualStyleBackColor = false;
+            this.btn_Pepperoni.Click += new System.EventHandler(this.btn_Click);
+            this.btn_Pepperoni.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
+            this.btn_Pepperoni.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
             // btn_SupremeMeat
             // 
@@ -139,8 +155,12 @@
             this.btn_SupremeMeat.Name = "btn_SupremeMeat";
             this.btn_SupremeMeat.Size = new System.Drawing.Size(222, 41);
             this.btn_SupremeMeat.TabIndex = 6;
+            this.btn_SupremeMeat.Tag = "13.5";
             this.btn_SupremeMeat.Text = "Supreme Meat";
             this.btn_SupremeMeat.UseVisualStyleBackColor = false;
+            this.btn_SupremeMeat.Click += new System.EventHandler(this.btn_Click);
+            this.btn_SupremeMeat.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
+            this.btn_SupremeMeat.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
             // btn_SupremeVeggie
             // 
@@ -156,8 +176,12 @@
             this.btn_SupremeVeggie.Name = "btn_SupremeVeggie";
             this.btn_SupremeVeggie.Size = new System.Drawing.Size(222, 41);
             this.btn_SupremeVeggie.TabIndex = 7;
+            this.btn_SupremeVeggie.Tag = "11.5";
             this.btn_SupremeVeggie.Text = "Supreme Veggie";
             this.btn_SupremeVeggie.UseVisualStyleBackColor = false;
+            this.btn_SupremeVeggie.Click += new System.EventHandler(this.btn_Click);
+            this.btn_SupremeVeggie.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
+            this.btn_SupremeVeggie.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
             // pic_Pizza
             // 
@@ -175,6 +199,7 @@
             this.btn_Next.BackColor = System.Drawing.Color.Transparent;
             this.btn_Next.BackgroundImage = global::PizzaCraft.Properties.Resources.Next;
             this.btn_Next.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Next.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Next.FlatAppearance.BorderSize = 0;
             this.btn_Next.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Next.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -184,12 +209,14 @@
             this.btn_Next.Size = new System.Drawing.Size(40, 40);
             this.btn_Next.TabIndex = 9;
             this.btn_Next.UseVisualStyleBackColor = false;
+            this.btn_Next.Click += new System.EventHandler(this.btn_Next_Click);
             // 
             // btn_Exit
             // 
             this.btn_Exit.BackColor = System.Drawing.Color.Transparent;
             this.btn_Exit.BackgroundImage = global::PizzaCraft.Properties.Resources.Exit;
             this.btn_Exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Exit.FlatAppearance.BorderSize = 0;
             this.btn_Exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -199,6 +226,7 @@
             this.btn_Exit.Size = new System.Drawing.Size(30, 30);
             this.btn_Exit.TabIndex = 10;
             this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // label2
             // 
@@ -220,7 +248,7 @@
             this.lbl_Price.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Price.Font = new System.Drawing.Font("Anton", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Price.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lbl_Price.Location = new System.Drawing.Point(710, 78);
+            this.lbl_Price.Location = new System.Drawing.Point(681, 78);
             this.lbl_Price.Name = "lbl_Price";
             this.lbl_Price.Size = new System.Drawing.Size(67, 60);
             this.lbl_Price.TabIndex = 12;
@@ -249,6 +277,7 @@
             this.Name = "Pizza_ChooseYourType";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pizza Craft - Choose Your Type";
+            this.Load += new System.EventHandler(this.Pizza_ChooseYourType_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic_Pizza)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
