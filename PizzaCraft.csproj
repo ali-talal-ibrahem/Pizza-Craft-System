@@ -190,5 +190,20 @@
   <ItemGroup>
     <None Include="Assets\VeggieSupremePizza.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Background_Welcome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Start_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Thin_Slice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Think_Slice.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
