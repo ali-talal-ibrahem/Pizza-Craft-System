@@ -1,6 +1,6 @@
 ﻿namespace PizzaCraft
 {
-    partial class Form1
+    partial class Pizza_Welcome
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pizza_Welcome));
+            this.SuspendLayout();
+            // 
+            // Pizza_Welcome
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.BackgroundImage = global::PizzaCraft.Properties.Resources.Background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(814, 511);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Pizza_Welcome";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Pizza Craft - Welcome";
+            this.TransparencyKey = System.Drawing.Color.Maroon;
+            this.ResumeLayout(false);
+
         }
 
         #endregion
