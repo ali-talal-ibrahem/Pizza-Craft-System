@@ -16,5 +16,11 @@ namespace PizzaCraft
         {
             InitializeComponent();
         }
+
+        private void btn_Start_Click(object sender, EventArgs e)
+        {
+            Form Start = new Pizza_SelectOrderType();
+            Start.ShowDialog();
+        }
     }
 }

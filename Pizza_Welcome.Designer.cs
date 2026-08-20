@@ -78,6 +78,7 @@
             this.btn_Start.TabIndex = 2;
             this.btn_Start.Text = "Start";
             this.btn_Start.UseVisualStyleBackColor = false;
+            this.btn_Start.Click += new System.EventHandler(this.btn_Start_Click);
             // 
             // Pizza_Welcome
             // 
