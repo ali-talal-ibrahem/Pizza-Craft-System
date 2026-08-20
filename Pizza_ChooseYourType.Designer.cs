@@ -207,7 +207,7 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Anton", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label2.Location = new System.Drawing.Point(667, 111);
+            this.label2.Location = new System.Drawing.Point(682, 23);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 60);
             this.label2.TabIndex = 11;
@@ -220,7 +220,7 @@
             this.lbl_Price.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Price.Font = new System.Drawing.Font("Anton", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Price.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lbl_Price.Location = new System.Drawing.Point(692, 166);
+            this.lbl_Price.Location = new System.Drawing.Point(710, 78);
             this.lbl_Price.Name = "lbl_Price";
             this.lbl_Price.Size = new System.Drawing.Size(67, 60);
             this.lbl_Price.TabIndex = 12;
