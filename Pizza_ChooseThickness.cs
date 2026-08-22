@@ -12,9 +12,19 @@ namespace PizzaCraft
 {
     public partial class Pizza_ChooseThickness : Form
     {
+
+        double PizzaPrice = 0;
+
         public Pizza_ChooseThickness()
         {
             InitializeComponent();
         }
+
+        public Pizza_ChooseThickness(double Price)
+        {
+            InitializeComponent();
+            this.PizzaPrice = Price;
+        }
+
     }
 }
