@@ -53,9 +53,9 @@
             this.label1.ForeColor = System.Drawing.Color.OrangeRed;
             this.label1.Location = new System.Drawing.Point(30, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(373, 60);
+            this.label1.Size = new System.Drawing.Size(432, 60);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Select Type Of Order";
+            this.label1.Text = "Select Pizza From Menu";
             // 
             // btn_Margherita
             // 
@@ -273,6 +273,7 @@
             this.Controls.Add(this.btn_Chicken);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Margherita);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pizza_ChooseYourType";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
