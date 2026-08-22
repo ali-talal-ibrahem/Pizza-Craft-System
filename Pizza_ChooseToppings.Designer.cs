@@ -110,6 +110,7 @@
             this.btn_Exit.BackColor = System.Drawing.Color.Transparent;
             this.btn_Exit.BackgroundImage = global::PizzaCraft.Properties.Resources.Exit;
             this.btn_Exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Exit.FlatAppearance.BorderSize = 0;
             this.btn_Exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -125,6 +126,7 @@
             this.btn_Next.BackColor = System.Drawing.Color.Transparent;
             this.btn_Next.BackgroundImage = global::PizzaCraft.Properties.Resources.Next;
             this.btn_Next.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Next.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Next.FlatAppearance.BorderSize = 0;
             this.btn_Next.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Next.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;

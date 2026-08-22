@@ -61,7 +61,7 @@
             this.lbl_Price.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Price.Font = new System.Drawing.Font("Anton", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Price.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lbl_Price.Location = new System.Drawing.Point(710, 78);
+            this.lbl_Price.Location = new System.Drawing.Point(682, 78);
             this.lbl_Price.Name = "lbl_Price";
             this.lbl_Price.Size = new System.Drawing.Size(67, 60);
             this.lbl_Price.TabIndex = 24;
@@ -85,6 +85,7 @@
             this.btn_Exit.BackColor = System.Drawing.Color.Transparent;
             this.btn_Exit.BackgroundImage = global::PizzaCraft.Properties.Resources.Exit;
             this.btn_Exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Exit.FlatAppearance.BorderSize = 0;
             this.btn_Exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -94,12 +95,14 @@
             this.btn_Exit.Size = new System.Drawing.Size(30, 30);
             this.btn_Exit.TabIndex = 22;
             this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // btn_Next
             // 
             this.btn_Next.BackColor = System.Drawing.Color.Transparent;
             this.btn_Next.BackgroundImage = global::PizzaCraft.Properties.Resources.Next;
             this.btn_Next.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Next.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Next.FlatAppearance.BorderSize = 0;
             this.btn_Next.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Next.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -109,6 +112,7 @@
             this.btn_Next.Size = new System.Drawing.Size(40, 40);
             this.btn_Next.TabIndex = 21;
             this.btn_Next.UseVisualStyleBackColor = false;
+            this.btn_Next.Click += new System.EventHandler(this.btn_Next_Click);
             // 
             // label1
             // 
@@ -151,6 +155,7 @@
             this.btn_Thin.Size = new System.Drawing.Size(200, 200);
             this.btn_Thin.TabIndex = 28;
             this.btn_Thin.UseVisualStyleBackColor = false;
+            this.btn_Thin.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn_Thick
             // 
@@ -167,6 +172,7 @@
             this.btn_Thick.Size = new System.Drawing.Size(200, 200);
             this.btn_Thick.TabIndex = 29;
             this.btn_Thick.UseVisualStyleBackColor = false;
+            this.btn_Thick.Click += new System.EventHandler(this.btn_Click);
             // 
             // label3
             // 
