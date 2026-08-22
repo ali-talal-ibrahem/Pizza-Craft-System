@@ -114,5 +114,10 @@ namespace PizzaCraft
         {
             this.Close();
         }
+
+        private void lbl_Large_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
