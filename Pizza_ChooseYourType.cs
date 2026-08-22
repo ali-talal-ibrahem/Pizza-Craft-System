@@ -124,7 +124,7 @@ namespace PizzaCraft
 
         private void btn_Next_Click(object sender, EventArgs e)
         {
-            Form SizePage = new Pizza_ChooseSize();
+            Form SizePage = new Pizza_ChooseSize(PizzaPrice);
             SizePage.ShowDialog();
         }
 
