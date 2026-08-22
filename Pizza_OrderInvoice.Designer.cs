@@ -34,8 +34,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lbl_OrderType = new System.Windows.Forms.Label();
-            this.lbl_Type1_1 = new System.Windows.Forms.Label();
-            this.lbl_Type1 = new System.Windows.Forms.Label();
             this.lbl_Type2_2 = new System.Windows.Forms.Label();
             this.lbl_Type2 = new System.Windows.Forms.Label();
             this.lbl_PizzaSize = new System.Windows.Forms.Label();
@@ -53,7 +51,7 @@
             this.lbl_Price.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Price.Font = new System.Drawing.Font("Anton", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Price.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lbl_Price.Location = new System.Drawing.Point(647, 382);
+            this.lbl_Price.Location = new System.Drawing.Point(571, 151);
             this.lbl_Price.Name = "lbl_Price";
             this.lbl_Price.Size = new System.Drawing.Size(112, 101);
             this.lbl_Price.TabIndex = 25;
@@ -66,7 +64,7 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Anton", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label2.Location = new System.Drawing.Point(612, 292);
+            this.label2.Location = new System.Drawing.Point(571, 73);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(190, 101);
             this.label2.TabIndex = 24;
@@ -107,37 +105,10 @@
             this.lbl_OrderType.ForeColor = System.Drawing.Color.SaddleBrown;
             this.lbl_OrderType.Location = new System.Drawing.Point(206, 120);
             this.lbl_OrderType.Name = "lbl_OrderType";
-            this.lbl_OrderType.Size = new System.Drawing.Size(139, 25);
+            this.lbl_OrderType.Size = new System.Drawing.Size(300, 25);
             this.lbl_OrderType.TabIndex = 28;
             this.lbl_OrderType.Tag = "0";
-            this.lbl_OrderType.Text = "Ready-made\r\n";
-            // 
-            // lbl_Type1_1
-            // 
-            this.lbl_Type1_1.AutoSize = true;
-            this.lbl_Type1_1.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_Type1_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbl_Type1_1.Font = new System.Drawing.Font("Teshrin AR+LT Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Type1_1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.lbl_Type1_1.Location = new System.Drawing.Point(206, 169);
-            this.lbl_Type1_1.Name = "lbl_Type1_1";
-            this.lbl_Type1_1.Size = new System.Drawing.Size(153, 25);
-            this.lbl_Type1_1.TabIndex = 30;
-            this.lbl_Type1_1.Tag = "0";
-            this.lbl_Type1_1.Text = "Oregano Pizza";
-            // 
-            // lbl_Type1
-            // 
-            this.lbl_Type1.AutoSize = true;
-            this.lbl_Type1.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_Type1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbl_Type1.Font = new System.Drawing.Font("Akhbar MT", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Type1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lbl_Type1.Location = new System.Drawing.Point(31, 166);
-            this.lbl_Type1.Name = "lbl_Type1";
-            this.lbl_Type1.Size = new System.Drawing.Size(180, 32);
-            this.lbl_Type1.TabIndex = 29;
-            this.lbl_Type1.Text = "Pizza Type : ";
+            this.lbl_OrderType.Text = "A solution will be found soon.";
             // 
             // lbl_Type2_2
             // 
@@ -145,13 +116,12 @@
             this.lbl_Type2_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Type2_2.Font = new System.Drawing.Font("Teshrin AR+LT Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Type2_2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.lbl_Type2_2.Location = new System.Drawing.Point(182, 173);
+            this.lbl_Type2_2.Location = new System.Drawing.Point(182, 174);
             this.lbl_Type2_2.Name = "lbl_Type2_2";
-            this.lbl_Type2_2.Size = new System.Drawing.Size(586, 25);
+            this.lbl_Type2_2.Size = new System.Drawing.Size(313, 25);
             this.lbl_Type2_2.TabIndex = 32;
             this.lbl_Type2_2.Tag = "0";
-            this.lbl_Type2_2.Text = "pepperoni , Onion";
-            this.lbl_Type2_2.Visible = false;
+            this.lbl_Type2_2.Text = "A solution will be found soon.";
             // 
             // lbl_Type2
             // 
@@ -160,12 +130,11 @@
             this.lbl_Type2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Type2.Font = new System.Drawing.Font("Akhbar MT", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Type2.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lbl_Type2.Location = new System.Drawing.Point(31, 169);
+            this.lbl_Type2.Location = new System.Drawing.Point(31, 170);
             this.lbl_Type2.Name = "lbl_Type2";
             this.lbl_Type2.Size = new System.Drawing.Size(164, 32);
             this.lbl_Type2.TabIndex = 31;
             this.lbl_Type2.Text = "Toppings : ";
-            this.lbl_Type2.Visible = false;
             // 
             // lbl_PizzaSize
             // 
@@ -176,10 +145,10 @@
             this.lbl_PizzaSize.ForeColor = System.Drawing.Color.SaddleBrown;
             this.lbl_PizzaSize.Location = new System.Drawing.Point(193, 227);
             this.lbl_PizzaSize.Name = "lbl_PizzaSize";
-            this.lbl_PizzaSize.Size = new System.Drawing.Size(79, 25);
+            this.lbl_PizzaSize.Size = new System.Drawing.Size(300, 25);
             this.lbl_PizzaSize.TabIndex = 34;
             this.lbl_PizzaSize.Tag = "0";
-            this.lbl_PizzaSize.Text = "Middle";
+            this.lbl_PizzaSize.Text = "A solution will be found soon.";
             // 
             // label5
             // 
@@ -203,10 +172,10 @@
             this.lbl_CrustThickness.ForeColor = System.Drawing.Color.SaddleBrown;
             this.lbl_CrustThickness.Location = new System.Drawing.Point(276, 278);
             this.lbl_CrustThickness.Name = "lbl_CrustThickness";
-            this.lbl_CrustThickness.Size = new System.Drawing.Size(55, 25);
+            this.lbl_CrustThickness.Size = new System.Drawing.Size(300, 25);
             this.lbl_CrustThickness.TabIndex = 36;
             this.lbl_CrustThickness.Tag = "0";
-            this.lbl_CrustThickness.Text = "Thin";
+            this.lbl_CrustThickness.Text = "A solution will be found soon.";
             // 
             // label6
             // 
@@ -224,34 +193,38 @@
             // btn_DoneOrder
             // 
             this.btn_DoneOrder.BackColor = System.Drawing.Color.ForestGreen;
+            this.btn_DoneOrder.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_DoneOrder.FlatAppearance.BorderSize = 0;
             this.btn_DoneOrder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btn_DoneOrder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btn_DoneOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_DoneOrder.Font = new System.Drawing.Font("Teshrin AR+LT Bold", 10F);
             this.btn_DoneOrder.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_DoneOrder.Location = new System.Drawing.Point(43, 344);
+            this.btn_DoneOrder.Location = new System.Drawing.Point(549, 348);
             this.btn_DoneOrder.Name = "btn_DoneOrder";
             this.btn_DoneOrder.Size = new System.Drawing.Size(93, 38);
             this.btn_DoneOrder.TabIndex = 37;
             this.btn_DoneOrder.Text = "Done";
             this.btn_DoneOrder.UseVisualStyleBackColor = false;
+            this.btn_DoneOrder.Click += new System.EventHandler(this.btn_DoneOrder_Click);
             // 
             // btn_CancelOrder
             // 
             this.btn_CancelOrder.BackColor = System.Drawing.Color.DarkRed;
+            this.btn_CancelOrder.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_CancelOrder.FlatAppearance.BorderSize = 0;
             this.btn_CancelOrder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
             this.btn_CancelOrder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_CancelOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_CancelOrder.Font = new System.Drawing.Font("Teshrin AR+LT Bold", 10F);
             this.btn_CancelOrder.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_CancelOrder.Location = new System.Drawing.Point(142, 344);
+            this.btn_CancelOrder.Location = new System.Drawing.Point(648, 348);
             this.btn_CancelOrder.Name = "btn_CancelOrder";
             this.btn_CancelOrder.Size = new System.Drawing.Size(93, 38);
             this.btn_CancelOrder.TabIndex = 38;
             this.btn_CancelOrder.Text = "Cancel";
             this.btn_CancelOrder.UseVisualStyleBackColor = false;
+            this.btn_CancelOrder.Click += new System.EventHandler(this.btn_CancelOrder_Click);
             // 
             // Pizza_OrderInvoice
             // 
@@ -268,13 +241,11 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lbl_Type2_2);
             this.Controls.Add(this.lbl_Type2);
-            this.Controls.Add(this.lbl_Type1_1);
-            this.Controls.Add(this.lbl_Type1);
             this.Controls.Add(this.lbl_OrderType);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.lbl_Price);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_Price);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pizza_OrderInvoice";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -291,8 +262,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lbl_OrderType;
-        private System.Windows.Forms.Label lbl_Type1_1;
-        private System.Windows.Forms.Label lbl_Type1;
         private System.Windows.Forms.Label lbl_Type2_2;
         private System.Windows.Forms.Label lbl_Type2;
         private System.Windows.Forms.Label lbl_PizzaSize;

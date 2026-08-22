@@ -75,7 +75,7 @@ namespace PizzaCraft
 
         private void btn_Next_Click(object sender, EventArgs e)
         {
-            Form InvoiceForm = new Pizza_OrderInvoice();
+            Form InvoiceForm = new Pizza_OrderInvoice(FinalPrice);
             InvoiceForm.ShowDialog();
         }
 
