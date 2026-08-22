@@ -89,6 +89,7 @@
             this.btn_Exit.Size = new System.Drawing.Size(30, 30);
             this.btn_Exit.TabIndex = 15;
             this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // btn_Next
             // 
@@ -104,6 +105,7 @@
             this.btn_Next.Size = new System.Drawing.Size(40, 40);
             this.btn_Next.TabIndex = 14;
             this.btn_Next.UseVisualStyleBackColor = false;
+            this.btn_Next.Click += new System.EventHandler(this.btn_Next_Click);
             // 
             // label1
             // 
@@ -169,6 +171,7 @@
             this.trackBar1.TabIndex = 21;
             this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
             this.trackBar1.Value = 1;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // pic_Middle
             // 
