@@ -134,7 +134,6 @@
             this.lbl_Large.Size = new System.Drawing.Size(90, 34);
             this.lbl_Large.TabIndex = 18;
             this.lbl_Large.Text = "Large";
-            this.lbl_Large.Click += new System.EventHandler(this.lbl_Large_Click);
             // 
             // lbl_Middle
             // 
