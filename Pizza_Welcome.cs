@@ -26,11 +26,13 @@ namespace PizzaCraft
         private void btn_Start_MouseEnter(object sender, EventArgs e)
         {
             btn_Start.ForeColor = Color.Yellow;
+            btn_Start.Size = new Size(123 + 5, 37 + 5);
         }
 
         private void btn_Start_MouseLeave(object sender, EventArgs e)
         {
             btn_Start.ForeColor = Color.White;
+            btn_Start.Size = new Size(123, 37);
         }
 
         
