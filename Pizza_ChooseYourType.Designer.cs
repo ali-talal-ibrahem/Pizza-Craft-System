@@ -273,7 +273,7 @@
             this.Controls.Add(this.btn_Chicken);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Margherita);
-            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pizza_ChooseYourType";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
