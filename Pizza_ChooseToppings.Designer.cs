@@ -86,7 +86,7 @@
             this.lbl_Price.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Price.Font = new System.Drawing.Font("Anton", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Price.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lbl_Price.Location = new System.Drawing.Point(710, 78);
+            this.lbl_Price.Location = new System.Drawing.Point(686, 78);
             this.lbl_Price.Name = "lbl_Price";
             this.lbl_Price.Size = new System.Drawing.Size(67, 60);
             this.lbl_Price.TabIndex = 25;
@@ -120,6 +120,7 @@
             this.btn_Exit.Size = new System.Drawing.Size(30, 30);
             this.btn_Exit.TabIndex = 23;
             this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // btn_Next
             // 
@@ -136,6 +137,7 @@
             this.btn_Next.Size = new System.Drawing.Size(40, 40);
             this.btn_Next.TabIndex = 22;
             this.btn_Next.UseVisualStyleBackColor = false;
+            this.btn_Next.Click += new System.EventHandler(this.btn_Next_Click);
             // 
             // label1
             // 
@@ -181,8 +183,10 @@
             this.chk_AddChesse.Name = "chk_AddChesse";
             this.chk_AddChesse.Size = new System.Drawing.Size(45, 17);
             this.chk_AddChesse.TabIndex = 29;
+            this.chk_AddChesse.Tag = "2";
             this.chk_AddChesse.Text = "Add";
             this.chk_AddChesse.UseVisualStyleBackColor = true;
+            this.chk_AddChesse.CheckedChanged += new System.EventHandler(this.chk_CheckedChanged);
             // 
             // chk_AddOregano
             // 
@@ -191,8 +195,10 @@
             this.chk_AddOregano.Name = "chk_AddOregano";
             this.chk_AddOregano.Size = new System.Drawing.Size(45, 17);
             this.chk_AddOregano.TabIndex = 33;
+            this.chk_AddOregano.Tag = "1";
             this.chk_AddOregano.Text = "Add";
             this.chk_AddOregano.UseVisualStyleBackColor = true;
+            this.chk_AddOregano.CheckedChanged += new System.EventHandler(this.chk_CheckedChanged);
             // 
             // lbl_PriceOregano
             // 
@@ -238,8 +244,10 @@
             this.chk_AddMushroom.Name = "chk_AddMushroom";
             this.chk_AddMushroom.Size = new System.Drawing.Size(45, 17);
             this.chk_AddMushroom.TabIndex = 37;
+            this.chk_AddMushroom.Tag = "3";
             this.chk_AddMushroom.Text = "Add";
             this.chk_AddMushroom.UseVisualStyleBackColor = true;
+            this.chk_AddMushroom.CheckedChanged += new System.EventHandler(this.chk_CheckedChanged);
             // 
             // lbl_PriceMushroom
             // 
@@ -285,8 +293,10 @@
             this.chk_AddTomatoes.Name = "chk_AddTomatoes";
             this.chk_AddTomatoes.Size = new System.Drawing.Size(45, 17);
             this.chk_AddTomatoes.TabIndex = 49;
+            this.chk_AddTomatoes.Tag = "2";
             this.chk_AddTomatoes.Text = "Add";
             this.chk_AddTomatoes.UseVisualStyleBackColor = true;
+            this.chk_AddTomatoes.CheckedChanged += new System.EventHandler(this.chk_CheckedChanged);
             // 
             // lbl_PriceTomatoes
             // 
@@ -332,8 +342,10 @@
             this.chk_AddPepperoni.Name = "chk_AddPepperoni";
             this.chk_AddPepperoni.Size = new System.Drawing.Size(45, 17);
             this.chk_AddPepperoni.TabIndex = 45;
+            this.chk_AddPepperoni.Tag = "2";
             this.chk_AddPepperoni.Text = "Add";
             this.chk_AddPepperoni.UseVisualStyleBackColor = true;
+            this.chk_AddPepperoni.CheckedChanged += new System.EventHandler(this.chk_CheckedChanged);
             // 
             // lbl_PricePepperoni
             // 
@@ -379,8 +391,10 @@
             this.chk_AddOnion.Name = "chk_AddOnion";
             this.chk_AddOnion.Size = new System.Drawing.Size(45, 17);
             this.chk_AddOnion.TabIndex = 41;
+            this.chk_AddOnion.Tag = "1";
             this.chk_AddOnion.Text = "Add";
             this.chk_AddOnion.UseVisualStyleBackColor = true;
+            this.chk_AddOnion.CheckedChanged += new System.EventHandler(this.chk_CheckedChanged);
             // 
             // lbl_PriceOnion
             // 
