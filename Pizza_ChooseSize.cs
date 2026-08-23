@@ -24,7 +24,7 @@ namespace PizzaCraft
         public Pizza_ChooseSize(double Price)
         {
             InitializeComponent();
-            lbl_Middle.ForeColor = Color.OrangeRed;
+            lbl_Middle.ForeColor = Color.Green;
             this.PizzaPrice = Price;
             this.FinalPrice = Price;
             lbl_Price.Text = PizzaPrice.ToString() + " $";
@@ -38,15 +38,15 @@ namespace PizzaCraft
 
             if (bar.Value == 2)
             {
-                lbl_Large.ForeColor = Color.OrangeRed;
+                lbl_Large.ForeColor = Color.Green;
             }
             else if (bar.Value == 1)
             {
-                lbl_Middle.ForeColor = Color.OrangeRed;
+                lbl_Middle.ForeColor = Color.Green;
             }
             else if (bar.Value == 0)
             {
-                lbl_Small.ForeColor = Color.OrangeRed;
+                lbl_Small.ForeColor = Color.Green;
             }
 
         }
@@ -115,9 +115,5 @@ namespace PizzaCraft
             this.Close();
         }
 
-        private void lbl_Large_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
